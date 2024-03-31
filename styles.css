@@ -1,3 +1,50 @@
 body {
-    background: blue;
+    
+    background-color: #f0f0f0c2; 
+    background-image: url('leako.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
+ 
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+}
+
+
+
+
+
+header nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+header nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+
+header nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+
+header nav ul li a:hover {
+    color: #ff0; 
+}
+main{
+    margin-right: auto;
+}
+footer{
+    font-size: 14px;
+    color: #ff0;
+    margin-top: 10px;
+}
